@@ -1,7 +1,6 @@
 applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
-  host: backlog-pal-schidam
   routes:
   - route: backlog-pal-schidam.apps.evans.pal.pivotal.io
   memory: 1G
