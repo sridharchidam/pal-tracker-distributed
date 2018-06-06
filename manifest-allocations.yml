@@ -1,6 +1,7 @@
 applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
+  host: allocations-pal-schidam
   routes:
   - route: allocations-pal-schidam.apps.evans.pal.pivotal.io
   memory: 1G

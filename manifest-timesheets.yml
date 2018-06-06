@@ -1,6 +1,7 @@
 applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
+  host: timesheets-pal-schidam
   routes:
   - route: timesheets-pal-schidam.apps.evans.pal.pivotal.io
   memory: 1G
